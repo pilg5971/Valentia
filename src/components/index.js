@@ -1,0 +1,9 @@
+export { default as Navigation } from "./Navigation";
+export { default as Footer } from "./Footer";
+export { default as Home } from "./routes/Home";
+export { default as About } from "./routes/About";
+export { default as Contact } from "./routes/Contact";
+export { default as Gaming } from "./routes/Gaming";
+export { default as Blog } from "./blog/Blog";
+export { default as Posts } from "./blog/Posts";
+export { default as Post } from "./blog/Post";
