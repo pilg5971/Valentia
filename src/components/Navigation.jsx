@@ -10,7 +10,7 @@ function Navigation() {
           <NavLink className="navbar-brand d-flex" to="/">
             <img src={HomeLink} alt="Home Link" style={{height: 30 + 'px'}}/>
             <span className="pl-3"
-              dangerouslySetInnerHTML={{__html: "T&E Software"}}>
+              dangerouslySetInnerHTML={{__html: "Valentia"}}>
             </span>
           </NavLink>
           <div>
@@ -26,19 +26,19 @@ function Navigation() {
                   About
                 </NavLink>
               </li>
-              <li className="nav-item">
-                <NavLink className="nav-link pr-4" to="/contact">
-                  Contact
-                </NavLink>
-              </li>
               {/* <li className="nav-item">
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>
               </li> */}
               <li className="nav-item">
-                <NavLink className="nav-link" to="/gaming">
+                <NavLink className="nav-link pr-4" to="/gaming">
                   Gaming
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link pr-4" to="/contact">
+                  Contact
                 </NavLink>
               </li>
             </ul>

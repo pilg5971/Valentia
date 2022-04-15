@@ -12,3 +12,8 @@
   cursor: pointer;
 }
 
+#home-carousel img{
+  object-fit: cover;
+  height: 80vh;
+}
+

@@ -14,6 +14,7 @@ import {
 } from "./components";
 
 ReactDOM.render(
+
   <Router>
     <Navigation />
     <Routes>
@@ -28,7 +29,7 @@ ReactDOM.render(
     </Routes>
     <Footer />
   </Router>,
-
+  
   document.getElementById("root")
 );
 

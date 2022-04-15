@@ -1,31 +1,41 @@
 import React from "react";
-import image from "../../assets/Mario_Wallpaper.jpg";
 import "./page_styles.css";
+import Home1 from "../../assets/Home1.avif";
+import Home2 from "../../assets/Home2.avif";
+import Home3 from "../../assets/Home3.avif";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="container">
-        <div className="row align-items-center my-5">
-          <div className="col-lg-7">
-            <img
-              className="hover-card img-fluid rounded mb-4 mb-lg-0"
-              src={image}
-              alt=""
-            />
+    <>
+      <div id="home-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="#home-carousel" data-slide-to="1"></li>
+          <li data-target="#home-carousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img class="d-block w-100" src={Home1} alt="First slide"/>
           </div>
-          <div className="col-lg-5">
-            <h1 className="font-weight-light">Home</h1>
-            <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
-            </p>
+          <div class="carousel-item">
+            <img class="d-block w-100" src={Home2} alt="Second slide"/>
+          </div>
+          <div class="carousel-item">
+            <img class="d-block w-100" src={Home3} alt="Third slide"/>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-    </div>
+
+      <div className="container bg-dark"></div>
+    </>
   );
 }
 
