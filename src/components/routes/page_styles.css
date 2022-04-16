@@ -11,9 +11,22 @@
   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
   cursor: pointer;
 }
-
-#home-carousel img{
+/* ########################## */
+/*            HOME            */
+/* ########################## */
+#home #carousel img {
   object-fit: cover;
   height: 80vh;
 }
+
+#home .card-img-top {
+  height: 15vw;
+  object-fit: cover;
+}
+
+#home .card-body {
+  position: absolute;
+}
+
+
 

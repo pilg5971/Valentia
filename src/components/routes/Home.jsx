@@ -3,39 +3,36 @@ import "./page_styles.css";
 import Home1 from "../../assets/Home1.avif";
 import Home2 from "../../assets/Home2.avif";
 import Home3 from "../../assets/Home3.avif";
+import GalleryBackground from "../../assets/Gallery-bg.avif";
+import Gallery1 from "../../assets/Gallery1.avif";
+import Gallery2 from "../../assets/Gallery2.avif";
+import Gallery3 from "../../assets/Gallery3.avif";
+import Gallery4 from "../../assets/Gallery4.avif";
+import Gallery5 from "../../assets/Gallery5.avif";
+import Gallery6 from "../../assets/Gallery6.avif";
+import Carousel from "../Carousel";
+import ImageGallery from "../ImageGallery/ImageGallery";
 
 function Home() {
   return (
-    <>
-      <div id="home-carousel" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#home-carousel" data-slide-to="0" class="active"></li>
-          <li data-target="#home-carousel" data-slide-to="1"></li>
-          <li data-target="#home-carousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="d-block w-100" src={Home1} alt="First slide"/>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src={Home2} alt="Second slide"/>
-          </div>
-          <div class="carousel-item">
-            <img class="d-block w-100" src={Home3} alt="Third slide"/>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#home-carousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#home-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
+    <div id="home">
+     
+      <Carousel
+        Image1={Home1}
+        Image2={Home2}
+        Image3={Home3}
+      />
 
-      <div className="container bg-dark"></div>
-    </>
+      <ImageGallery 
+        background={GalleryBackground}
+        Image1={Gallery1}
+        Image2={Gallery2}
+        Image3={Gallery3}
+        Image4={Gallery4}
+        Image5={Gallery5}
+        Image6={Gallery6}
+      />
+    </div>
   );
 }
 
