@@ -26,11 +26,11 @@ function Navigation() {
                   About
                 </NavLink>
               </li>
-              {/* <li className="nav-item">
+              <li className="nav-item">
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>
-              </li> */}
+              </li>
               <li className="nav-item">
                 <NavLink className="nav-link pr-4" to="/gaming">
                   Gaming

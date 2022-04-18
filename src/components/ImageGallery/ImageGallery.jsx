@@ -6,32 +6,32 @@ function ImageGallery(props) {
       style={{ 
         backgroundImage: `url(${props.background})`
       }}>
-      <div className="row">
+      <div className="row no-gutters">
         <ImageCard
           Image={props.Image1}
-          columnSize={'col-3'}
+          columnSize={'col-md-3 col-sm-12'}
         />
         <ImageCard
           Image={props.Image2}
-          columnSize={'col-3'}
+          columnSize={'col-md-3 col-sm-12'}
         />
         <ImageCard
           Image={props.Image3}
-          columnSize={'col-6'}
+          columnSize={'col-md-6 col-sm-12'}
         />
       </div>
-      <div className="row">
+      <div className="row no-gutters">
         <ImageCard
           Image={props.Image4}
-          columnSize={'col-3'}
+          columnSize={'col-md-3 col-sm-12'}
         />
         <ImageCard
           Image={props.Image5}
-          columnSize={'col-3'}
+          columnSize={'col-md-3 col-sm-12'}
         />
         <ImageCard
           Image={props.Image6}
-          columnSize={'col-6'}
+          columnSize={'col-md-6 col-sm-12'}
         />
       </div>
     </div>
