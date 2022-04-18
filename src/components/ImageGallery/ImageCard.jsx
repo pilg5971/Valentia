@@ -1,10 +1,11 @@
 function ImageCard(props) {
   return(
-    <div className={props.columnSize}>
-      <div class="card">
-        <img class="card-img-top" src={props.Image} alt="Card image cap"/>
-        <div class="card-body">
-          <h2 class="card-title">Card title</h2>
+    <div className={props.ColumnSize}>
+      <div className="card">
+        <img className="card-img-top" src={props.Image} alt="Card image"
+        />
+        <div className="card-body">
+          <h2 className="card-title">{props.CardTitle}</h2>
         </div>
       </div>
     </div>

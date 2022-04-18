@@ -14,6 +14,9 @@ import Gallery3 from "../../assets/Gallery3.avif";
 import Gallery4 from "../../assets/Gallery4.avif";
 import Gallery5 from "../../assets/Gallery5.avif";
 import Gallery6 from "../../assets/Gallery6.avif";
+import ArticleBackground from "../../assets/Articles-bg.avif";
+import Article1 from "../../assets/Article1.avif";
+import Article2 from "../../assets/Article2.avif";
 
 //########### Components ###########//
 import Carousel from "../Carousel";
@@ -31,31 +34,42 @@ function Home() {
       />
 
       <ImageGallery 
-        background={GalleryBackground}
+        Background={GalleryBackground}
+        GalleryTitle={"Latest Features & Announcements"}
         Image1={Gallery1}
+        CardTitle1={"Welcome to the Party, D&D Beyond!"}
         Image2={Gallery2}
+        CardTitle2={"Heroes of Krynn"}
         Image3={Gallery3}
+        CardTitle3={"D&D Player Tips"}
         Image4={Gallery4}
+        CardTitle4={"D&D Rules Expansion Gift Set"}
         Image5={Gallery5}
+        CardTitle5={" Monsters of the Multiverse | Dungeons & Dragons"}
         Image6={Gallery6}
+        CardTitle6={"What is the Radiant Citadel?"}
       />
 
-      <div className="container-fluid p-4" 
+      <div className="container-fluid p-4 row justify-content-around article-container" 
         style={{ 
           backgroundImage: `url(${ArticleBackground})`
         }}>
-        <ArticleCard 
-          Image={""}
-          CardTitle={""}
-          CardBody={""}
-          CardButtonLink={""}
-        />
-        <ArticleCard 
-          Image={""}
-          CardTitle={""}
-          CardBody={""}
-          CardButtonLink={""}
-        />
+        <div class="col-6">
+          <ArticleCard 
+            Image={Article1}
+            CardTitle={"Dragon Talk"}
+            CardBody={"D&D owns the airwaves! Get the latest news and gamer humor from the official D&D podcast."}
+            CardButtonLink={"#"}
+          />
+        </div>
+        <div class="col-6">
+          <ArticleCard 
+            Image={Article2}
+            CardTitle={"Virtual Play Weekends"}
+            CardBody={"Connect with your friends around the world and play D&D with some of the best Dungeon Masters anywhere!"}
+            CardButtonLink={""}
+          />
+        </div>
       </div>
 
     </div>

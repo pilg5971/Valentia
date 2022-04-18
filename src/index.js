@@ -11,6 +11,9 @@ import {
   About,
   Contact,
   Gaming,
+  Blog,
+  Posts,
+  Post
 } from "./components";
 
 ReactDOM.render(
