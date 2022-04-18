@@ -1,5 +1,3 @@
-import react from "react";
-
 function ImageCard(props) {
   return(
     <div className={props.columnSize}>

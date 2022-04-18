@@ -1,11 +1,11 @@
-import react from "react";
 import ImageCard from "./ImageCard";
 
 function ImageGallery(props) {
   return(
-    <div className="container-fluid p-4" style={{ 
-          backgroundImage: `url(${props.background})` ,
-        }}>
+    <div className="container-fluid p-4" 
+      style={{ 
+        backgroundImage: `url(${props.background})`
+      }}>
       <div className="row">
         <ImageCard
           Image={props.Image1}
