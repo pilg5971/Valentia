@@ -111,6 +111,16 @@ footer h5 {
   color: white;
 }
 
+footer h5:after {
+  content: "";
+  display: block;
+  background: radial-gradient(circle, rgba(121,9,9,1) 50%, rgba(2,0,36,1) 100%);
+  border-radius: 100%;
+  margin-top: 5px;
+  height: 5px;
+  width: 105px;
+}
+
 footer .social-links a {
   background-color: #242424;
   border: 0;

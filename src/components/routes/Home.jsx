@@ -17,6 +17,7 @@ import Gallery6 from "../../assets/Gallery6.avif";
 import ArticleBackground from "../../assets/Articles-bg.avif";
 import Article1 from "../../assets/Article1.avif";
 import Article2 from "../../assets/Article2.avif";
+import ContactBackground from "../../assets/contact-bg.jpg";
 
 //########### Components ###########//
 import Carousel from "../Carousel";
@@ -69,6 +70,21 @@ function Home() {
             CardBody={"Connect with your friends around the world and play D&D with some of the best Dungeon Masters anywhere!"}
             CardButtonLink={""}
           />
+        </div>
+      </div>
+
+      <div className="container-fluid"
+      style={{ 
+        backgroundImage: `url(${ContactBackground})`
+      }}>
+        <div className="container mx-auto py-4 text-white">
+          <h2 className="text-center">
+            D&D Newsletter
+          </h2>
+          <p>
+            Sign up to get the latest info on Dungeons & Dragons products,
+            events, and special offers—and help stay informed!
+          </p>
         </div>
       </div>
 

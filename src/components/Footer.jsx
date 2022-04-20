@@ -1,6 +1,9 @@
 import React from "react";
 import "./routes/page_styles.css";
 import FooterBackground from "../assets/footer-bg.png"
+import footer1 from "../assets/footer1.avif";
+import footer2 from "../assets/footer2.avif";
+import footer3 from "../assets/footer3.avif";
 
 function Footer() {
   return (
@@ -13,7 +16,7 @@ function Footer() {
           <div className="row py-4 px-2">
             <div className="col-md-6 col-sm-12">
               <h5>Social Links</h5>
-              <div className="social-links">
+              <div className="social-links pt-2">
                 <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
@@ -36,6 +39,13 @@ function Footer() {
             </div>
             <div className="col-md-6 col-sm-12">
               
+            </div>
+          </div>
+          <div className="row py-4 px-2">
+            <div className="col-12 d-flex justify-content-end">
+              <img className="mr-4" src={footer1} alt="footer1" />
+              <img className="mr-4" src={footer2} alt="footer2" />
+              <img src={footer3} alt="footer3" />
             </div>
           </div>
         </div>
