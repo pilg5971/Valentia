@@ -3,7 +3,7 @@ import "./page_styles.css";
 
 function Legends() {
   return (
-    <div className="Legends">
+    <div id="legends">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">

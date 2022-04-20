@@ -81,7 +81,7 @@ function Home() {
           <h2 className="text-center">
             D&D Newsletter
           </h2>
-          <p>
+          <p className="text-center">
             Sign up to get the latest info on Dungeons & Dragons products,
             events, and special offers—and help stay informed!
           </p>

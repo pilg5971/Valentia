@@ -32,7 +32,7 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link pr-4" to="/hall-of-heros">
+                <NavLink className="nav-link pr-4" to="/legends">
                   Legends
                 </NavLink>
               </li>
@@ -45,17 +45,7 @@ function Navigation() {
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link pr-4" to="/gaming">
-                  Gaming
-                </NavLink>
-              </li>
-              <li className="nav-item">
-                <NavLink className="nav-link pr-4" to="/contact">
-                  Contact
-                </NavLink>
-              </li> */}
+              </li>*/}
             </ul>
           </div>
         </div>
