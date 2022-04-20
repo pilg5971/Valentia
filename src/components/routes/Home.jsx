@@ -54,7 +54,7 @@ function Home() {
         style={{ 
           backgroundImage: `url(${ArticleBackground})`
         }}>
-        <div class="col-6">
+        <div class="col-md-5 col-sm-12">
           <ArticleCard 
             Image={Article1}
             CardTitle={"Dragon Talk"}
@@ -62,7 +62,7 @@ function Home() {
             CardButtonLink={"#"}
           />
         </div>
-        <div class="col-6">
+        <div class="col-md-5 col-sm-12">
           <ArticleCard 
             Image={Article2}
             CardTitle={"Virtual Play Weekends"}
