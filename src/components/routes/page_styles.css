@@ -106,7 +106,35 @@ body::-webkit-scrollbar {
   }
 }
 
-/* ########### Contact Section ########### */
+/* ########################## */
+/*          ONE-SHOT          */
+/* ########################## */
+#one-shot iframe {
+  width: 100%;
+  height: 1000px;
+}
+
+#one-shot .char-image {
+  padding-right: 12px;
+}
+
+#one-shot .char-sheet {
+  padding-left: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  #one-shot .char-image {
+    padding-right: 24px;
+  }
+
+  #one-shot .char-sheet {
+    padding-left: 24px;
+  }
+}
+
+/* ########################## */
+/*           FOOTER           */
+/* ########################## */
 footer h5 {
   color: white;
 }
