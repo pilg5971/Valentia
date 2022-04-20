@@ -1,7 +1,7 @@
 function ArticleCard(props) {
   return(
     <div className="card">
-      <img src={props.Image} className="card-img-top" />
+      <img src={props.Image} className="card-img-top" alt="Article" />
       <div className="card-body text-center">
         <h5 className="card-title">{props.CardTitle}</h5>
         <p className="card-text ">{props.CardBody}</p>

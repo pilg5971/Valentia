@@ -14,22 +14,22 @@ function Footer() {
             <div className="col-md-6 col-sm-12">
               <h5>Social Links</h5>
               <div className="social-links">
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-facebook-f"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-twitter"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-twitch"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-youtube"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-brands fa-instagram"></i>
                 </a>
-                <a href="#" target="_blank" rel="noopener">
+                <a href="#home" target="_blank" rel="noreferrer">
                   <i class="fa-solid fa-hand-holding-heart"></i>
                 </a>
               </div>

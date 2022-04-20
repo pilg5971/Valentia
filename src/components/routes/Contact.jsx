@@ -7,7 +7,7 @@ function Contact() {
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
-            <a href="https://www.nintendo.com/" target="_blank">
+            <a href="https://www.nintendo.com/" target="_blank" rel="noreferrer">
               <img
                 className="hover-card img-fluid rounded mb-4 mb-lg-0"
                 src="{image}"
