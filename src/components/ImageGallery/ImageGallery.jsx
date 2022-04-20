@@ -2,7 +2,7 @@ import ImageCard from "./ImageCard";
 
 function ImageGallery(props) {
   return(
-    <div className="container-fluid px-4 image-gallery" 
+    <div className="container-fluid px-4 image-gallery" id="announcements" 
       style={{ 
         backgroundImage: `url(${props.Background})`
       }}>

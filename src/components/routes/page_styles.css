@@ -26,6 +26,10 @@ body::-webkit-scrollbar {
 /* ########################## */
 /*            HOME            */
 /* ########################## */
+#home .container-fluid {
+  width: auto;
+}
+
 #home #carousel img {
   object-fit: cover;
   height: 90vh;
@@ -90,10 +94,6 @@ body::-webkit-scrollbar {
 }
 
 /* ########### Article Container ########### */
-#home .article-container {
-  width: auto;
-}
-
 #home .article-container h5 {
   font-size: clamp(24px,1.875vw,30px);
   line-height: 1.20833;

@@ -41,7 +41,7 @@ function Footer() {
         </div>
         <div className="container p-3">
           <p className="m-0 text-center text-white">
-            Valentia &copy; Trevor Pilgrim 2022
+            Valentia &copy; Prometheus Bound 2022
           </p>
         </div>
       </footer>

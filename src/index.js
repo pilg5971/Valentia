@@ -9,8 +9,8 @@ import {
   Footer,
   Home,
   About,
-  Contact,
-  Gaming,
+  Legends,
+  OneShot,
   Blog,
   Posts,
   Post
@@ -23,12 +23,12 @@ ReactDOM.render(
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/about" element={<About />} />
-      <Route path="/contact" element={<Contact />} />
+      <Route path="/legends" element={<Legends />} />
       <Route path="/blog" element={<Blog />}>
         <Route path="" element={<Posts />} />
         <Route path=":postSlug" element={<Post />} />
       </Route>
-      <Route path="/gaming" element={<Gaming />} />
+      <Route path="/one-shot" element={<OneShot />} />
     </Routes>
     <Footer />
   </Router>,

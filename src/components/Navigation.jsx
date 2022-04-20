@@ -22,6 +22,21 @@ function Navigation() {
                 </NavLink>
               </li>
               <li className="nav-item">
+                <NavLink className="nav-link pr-4" to="/blog">
+                  Announcements
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link pr-4" to="/one-shot">
+                  One-shots
+                </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav-link pr-4" to="/hall-of-heros">
+                  Legends
+                </NavLink>
+              </li>
+              {/* <li className="nav-item">
                 <NavLink className="nav-link pr-4" to="/about">
                   About
                 </NavLink>
@@ -40,7 +55,7 @@ function Navigation() {
                 <NavLink className="nav-link pr-4" to="/contact">
                   Contact
                 </NavLink>
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

@@ -1,9 +1,9 @@
 import React from "react";
 import "./page_styles.css";
 
-function Contact() {
+function Legends() {
   return (
-    <div className="contact">
+    <div className="Legends">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
@@ -16,7 +16,7 @@ function Contact() {
             </a>    
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Contact</h1>
+            <h1 className="font-weight-light">Legends</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -30,4 +30,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Legends;

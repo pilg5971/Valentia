@@ -1,9 +1,9 @@
 import React from "react";
 import "./page_styles.css"
 
-function Gaming() {
+function OneShot() {
   return (
-    <div className="gaming">
+    <div className="OneShot">
       <div className="container">
         <div className="row align-items-center my-5">
           <div className="col-lg-7">
@@ -16,7 +16,7 @@ function Gaming() {
             </a>
           </div>
           <div className="col-lg-5">
-            <h1 className="font-weight-light">Gaming</h1>
+            <h1 className="font-weight-light">OneShot</h1>
             <p>
               Lorem Ipsum is simply dummy text of the printing and typesetting
               industry. Lorem Ipsum has been the industry's standard dummy text
@@ -30,4 +30,4 @@ function Gaming() {
   );
 }
 
-export default Gaming;
+export default OneShot;
